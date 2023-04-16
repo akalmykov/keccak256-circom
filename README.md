@@ -29,3 +29,18 @@ include "../node_modules/keccak256-circom/circuits/keccak.circom";
 // for a input & output of 32 bytes:
 component main = Keccak(32*8, 32*8);
 ```
+
+- Install
+
+
+```
+Installed
+sudo apt install nlohmann-json3-dev
+sudo apt install libgmp3-dev
+sudo apt-get install gcc-multilib
+sudo apt-get -y install nasm
+
+Upgraded libs in package.json trying to fix https://github.com/iden3/snarkjs/issues/217
+upgraded global snarkyjs install (as per circom website)
+upgraded "circom_tester": "0.0.19",
+```
